@@ -1,0 +1,12 @@
+aws_config:
+  class: File
+  path: aws/config
+aws_shared_credentials:
+  class: File
+  path: aws/credentials
+endpoint_json:
+  class: File
+  path: aws/endpoint.json
+signpost_json:
+  class: File
+  path: aws/signpost.json

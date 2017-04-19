@@ -1,0 +1,6 @@
+[profile us-east-2]
+region = us-east-2
+[profile us-west-1]
+region = us-west-1
+[profile us-west-2]
+region = us-west-2
