@@ -89,6 +89,10 @@ arguments:
     position: 5
     shellQuote: true
 
+  - valueFrom: "--no-sign-request"
+    position: 6
+    shellQuote: true
+
   - valueFrom: |
       ${
       var signpost_json = JSON.parse(inputs.signpost_json.contents);
